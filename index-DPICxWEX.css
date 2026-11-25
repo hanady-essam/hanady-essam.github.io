@@ -7,3 +7,8 @@ html,body,#root{min-height:100%;margin:0}body{background:#0b1a2e}.hp-root{--hp-b
 .hp-edu-row .hp-edu{margin-top:0}
 .hp-led{z-index:3}
 .hp-plug{z-index:2}
+.hp-form{margin-top:18px;display:grid;gap:10px}
+.hp-form input,.hp-form textarea{background:#0b1b33;border:1px solid #23405f;border-radius:12px;color:#dce9f5;padding:12px 14px;font:inherit;width:100%;box-sizing:border-box}
+.hp-form input::placeholder,.hp-form textarea::placeholder{color:#5f7a94}
+.hp-form textarea{min-height:110px;resize:vertical}
+.hp-form .hp-btn{justify-self:start}
