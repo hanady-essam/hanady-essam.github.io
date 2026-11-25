@@ -12,3 +12,10 @@ html,body,#root{min-height:100%;margin:0}body{background:#0b1a2e}.hp-root{--hp-b
 .hp-form input::placeholder,.hp-form textarea::placeholder{color:#5f7a94}
 .hp-form textarea{min-height:110px;resize:vertical}
 .hp-form .hp-btn{justify-self:start}
+
+.hp-inforows{display:flex;flex-direction:column;gap:12px;width:fit-content;margin:16px auto 0;text-align:left}
+.hp-inforow{display:flex;align-items:center;gap:12px}
+.hp-ir-icon{display:flex;align-items:center;justify-content:center;width:40px;height:40px;border-radius:12px;background:#12233a;font-size:19px}
+.hp-ir-label{display:block;font-size:10px;letter-spacing:2px;color:#8a97a8;text-transform:uppercase}
+.hp-ir-value{display:block;font-size:16px;color:#e8eef5}
+.hp-ir-in{font-weight:700;font-size:15px}
